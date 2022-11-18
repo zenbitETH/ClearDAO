@@ -1,0 +1,112 @@
+/* Buttons and links */
+
+  
+  a {
+    
+    color: #FFF;
+  }
+  
+  a:link {
+    color: #FFF;
+    border: none;
+  }
+  
+  a:active{
+    color: #01304E !important;
+  }
+  
+  a:visited {
+    color: #FFF;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #01304E;
+  }
+  
+  .about-bt:hover {
+    background-image: linear-gradient(to right, #36AE7C, #36AE7C) !important;
+    color: #ffffff !important;
+  }
+  
+  .about-bt:focus {
+    box-shadow: none !important;
+  }
+
+  .about-bt {
+    margin: 1em 0 1em 0;
+    padding: 0.5em;
+    color: white;
+    background-color: #00000068;
+    border-radius: 25px;
+    width: 100%;
+    position: relative;
+    border-color: transparent;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .quiz-bt {
+    padding: 1em;
+    color: white;
+    background-color: #00000068;
+    border-radius: 25px;
+    width: 100%;
+    position: relative;
+    border-color: transparent;
+    font-size: 1.2em;
+
+  }
+
+  .quiz-bt:hover {
+    background: linear-gradient(75deg, #2b284a00, #f9a733d7, #f9a733d7, #f9a73369, #2b284a00);
+    background-size: 500% 500%;
+    animation: gradient 2s ease infinite;
+    cursor: pointer;
+  }
+
+  
+  .verify-bt {
+    padding: 2em 0 0 0;
+    color: white;
+    background-color: #00000068;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-color: transparent;
+    font-size: 2em;
+    text-align: center;
+    margin: -1em 2em 0 2em;
+  }
+
+  
+  .verify-bt:hover {
+    background: linear-gradient(75deg, #2b284a00, #F9D923d7, #F9D923d7, #F9D92369, #2b284a00);
+    background-size: 500% 500%;
+    animation: gradient 2s ease infinite;
+    cursor: pointer;
+    
+  }
+
+  @media only screen and (min-width: 1000px) {
+
+    .verify-bt {
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+  }
+
+  .prop-wallet{
+    font-size: 1.2em !important;
+  }
+  
+  @media only screen and (min-width: 1800px) {
+    .verify-bt {
+      margin-left: 40%;
+      margin-right: 40%;
+      margin-bottom: 5em;
+      text-align: center;
+    }
+
+  }

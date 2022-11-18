@@ -1,0 +1,29 @@
+ 
+  .yellow-modal {  
+    background-color: #36AE7C !important;
+    border-radius: 20px !important;
+    background-image: linear-gradient(#36AE7C, #ffc16b);
+    font-family: 'Lexend Deca', sans-serif !important; 
+    color: #ffffff !important;
+  }
+  
+  .modal-2 .modal-content {  
+    border-radius: 25px !important;
+    text-align: center !important;
+    background: linear-gradient(90deg, #2b284a00, #2b284a00, #36AE7C90, #36AE7C90, #2b284a00, #2b284a00);
+    background-size: 500% 500%;
+    animation: gradient 2s ease infinite;
+    font-family: 'Lexend Deca', sans-serif !important; 
+    color: #ffffff !important;
+  }
+
+  .modal-content {  
+    background-color: #36AE7C !important;
+    border-radius: 20px !important;
+    text-align: center !important;
+    background-image: linear-gradient(#00000068, #68686821);
+    font-family: 'Lexend Deca', sans-serif !important; 
+    color: #ffffff !important;
+    padding: 1em;
+    border: none;
+  }

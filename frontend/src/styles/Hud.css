@@ -1,0 +1,405 @@
+.zenbit {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+}
+
+.zenbitBTM {
+  position: fixed;
+  top: 3.5em;
+  right: 0;  
+  color: #ffffff50;
+}
+
+.zenbit:hover, .zenbitBTM:hover{
+  color: #F9D923 ;
+}
+
+Nav {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.hudWallet {
+    color: #ffffff;
+    background-color: #36AE7C;
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+    padding: 1em 0em 1em 0em ;
+    margin: 0 0 0 0;
+    border-radius:  25px 25px 0px 0px;
+    font-size: clamp(1em, -0.875rem + 2vw, 2rem);
+    text-align: center;
+  }
+
+  .hudWallet:hover {
+    background-color: #F9D923b4;
+    background-size: 200% 200%;
+    cursor: pointer;
+  }
+
+  .no-wallet, .no-validation {
+    background: linear-gradient(90deg, #dc3840b5, #e26c72b5, #dc3840b5);
+    background-size: 200% 200%;
+    animation: gradient 2s ease infinite;
+    margin: 0 0 0 0;
+    font-size: 1em;
+    backdrop-filter: blur(20px);
+  }
+
+  .no-wallet {
+    border-radius:  25px 25px 0px 0px;
+    padding: 0.5em 0em 0.5em 0em ;
+  }
+
+  .no-validation {
+    border-radius:  0px 25px 0px 0px;
+    grid-column: span 3 / span 3; 
+    padding: 1.25em 0em 0em 0em ;
+  }
+  
+  .no-wallet:hover {
+    background-size: 100% 100%;
+    content:'';
+    cursor: pointer;
+    border-width: 0em;
+    border-style: solid;
+    animation: none;
+  }
+
+  .spinner-grow {
+    color: #F9D923;
+    height: 40px !important;
+    width: 40px !important;
+    position: relative;
+    margin: -0.55em 0 -0.55em 0;
+  }
+
+  
+  .bg-start {
+    padding: 1em;
+    background-color: #00000068;
+    border-radius: 25px;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    border-color: transparent;
+    display: block;
+  }
+
+  .bg-start:hover {
+    border-color: transparent;
+    background: linear-gradient(-45deg,  #F9D923, #F9D923,#36AE7Cb4, #36AE7Cb4);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+    color: #01304E !important;
+  }
+
+  .cw {
+    color: #ffffff;
+    position: relative;
+    left: -1em;
+  }
+
+  .spincenter {
+    padding-left: 2em;
+  }
+
+.topHud{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  z-index: 20;
+}
+
+.topGrid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.bottomGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.MiniTitle {
+  font-size: 0.5em;
+}
+
+.bottomHud{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  
+  overflow: hidden;
+  z-index: 20;  
+}
+
+.walletHud{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 20;  
+}
+
+.lang {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #AAA6A150;
+  padding: 1em;
+  border-radius: 0 0 0px 25px;
+}
+
+.langb {
+  position: fixed;
+  bottom: 5em;
+  left: 0;
+  background-color: #AAA6A150;
+  padding: 0.5em;
+  border-radius: 0px 25px 25px 0px;
+}
+
+.homemargin{
+  margin-top: 5em;
+}
+
+.proposalmargin{
+  margin-top: 3em;
+}
+
+.hud0, .hud1, .hud2, .hudH, .hudH2, .hudH3, .hudB, .hudB1, .hudB2 {
+  background-size: 100% 100%;
+  padding: 0.25em 1em 0.25em 1em;
+  font-size: 1.5em;
+  background-color: #AAA6A150;
+  backdrop-filter: blur(20px);
+}
+
+.hudlogo, .hudlogoL {
+  position: fixed;
+  height: auto;
+  margin: 0.5em 0em 0em 1em;
+  width: 45%;
+  left: 0;
+}
+
+.hudlogo {
+  top:2em;
+}
+
+.hudlogoL {
+  top: 1em;
+}
+
+
+
+.hudCIT, .hudCITL {
+  position: fixed;
+  height: auto;
+  margin: 0.5em 0em 0em 1em;
+  width: 30%;
+  right: 1em;
+}
+
+
+.hudCIT {
+  top: 1em;
+}
+
+
+.hudCITL {
+  top: 1em;
+}
+
+
+.hislogo{
+  height: 50px;
+}
+
+.hudH {
+  border-radius:  0 0px 25px 0px;
+}
+
+.hudH2 {
+  border-radius:  0 0 0px 25px;
+  padding: .48em 0 .5em 0;
+}
+
+.hudH3 {
+  border-radius:  25px 0px 0px 25px;
+}
+
+.hudB {
+  border-radius:  25px 0px 0px 0px;
+}
+
+.hudB2 {
+  border-radius:  0px 25px 0px 0px;
+}
+
+.hud0 {
+  border-radius:  25px 0 0px 0px;
+}
+
+.hud1 {
+  border-radius:  0 0 0px 0px;
+}
+
+.hud2 {
+  border-radius:  0 25px 0px 0px;
+}
+
+
+.hud0:hover, .hud1:hover, .hud2:hover, .lang:hover, .langb:hover,.hudH:hover, .hudH2:hover, .hudH3:hover, .hudB:hover, .hudB1:hover, .hudB2:hover{ 
+  background-color: #F9D92375;
+  color: #Fff;
+  cursor: pointer;
+}
+
+.hudBalance {
+  color:#01304E !important;
+  display: block;
+}
+
+.hudBalance:hover {
+  color:#fff !important;
+}
+
+  .hudU {
+    color: #fff !important;
+    background: linear-gradient(0deg#a5403900, #a5403900);
+    margin: -0.5em 1em 1em 0em ;
+    padding: 1em 1em 0em 1em;
+    border-radius:  0 0 25px 25px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .hudU:hover {
+    background: linear-gradient(0deg,  #f65f55,#f65f55,#a54039, #a5403900);
+    animation:none;
+  }
+
+  .double {
+    grid-column: span 3 / span 3; 
+  }
+
+
+
+  @media only screen and (min-width: 1200px) {
+    .hudlogo, .hudlogoL {
+      top: 1em;
+      bottom: auto;
+      width: 20%;
+    }
+
+    .hudCIT, .hudCITL {
+      width: 12.5%;
+      top: 1em;
+      right: 1em;
+    }
+
+    .hislogo{
+      height: 150px;
+      padding: 0.5em;
+    }
+
+    .hudH2 {
+      border-radius:  0 25px 25px 0px;
+    }
+
+    .hudH3 {
+      border-radius:  0 25px 25px 0px;
+    }
+
+    .zenbitBTM {
+      left: 50%;
+      top: auto;
+      bottom:0;
+      transform: translateX(-50%);
+      z-index: 20;
+    }
+
+    .langb {
+      top: 0em;
+      right: 0;
+      left: auto;
+      bottom: auto;
+      border-radius: 0 0 0px 25px;
+    }
+
+    .topHud, .bottomHud {
+      width: 30%;
+      margin: 0 0em 0 0em;
+      
+      font-size: 1.1em
+    }
+
+    .bottomHud {
+      top: 0;
+      right: 0;
+      margin: 0 0em 0 0em;
+      font-size: 1.1em
+    }
+
+    .walletHud {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40%;
+    }
+    
+    .bg-start {
+      height: 450px;
+    }
+
+    .spinner-grow {
+        left:7%;
+    }
+    
+    .homemargin{
+      margin-top: 4em;
+    }
+    .proposalmargin{
+      margin-top: 0em;
+    }
+    .hud0 {
+      border-radius:  0px 0 0px 25px;
+    }
+    
+    .hud1 {
+      border-radius:  0 0 0px 0px;
+    }
+    
+    .hud2 {
+      border-radius:  0 0px 0px 0px;
+    }
+
+    .hudH {
+      border-radius:  0 0px 25px 0px;
+      padding: 0.75em 0 0.75em 0;
+    }
+    .hudH2 {
+      border-radius:  0 0px 25px 25px;
+      padding: 0.7em 0 0.70em 0;
+    }
+    .no-validation {
+      border-radius:  0px 0px 0px 0px;
+    }
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: .5;
+    }
+  }; 
