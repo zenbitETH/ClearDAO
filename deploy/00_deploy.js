@@ -1,7 +1,7 @@
 require("hardhat-deploy");
 require("hardhat-deploy-ethers");
 
-const ethers = require("ethers");
+const { ethers } = require("hardhat");
 const fa = require("@glif/filecoin-address");
 const util = require("util");
 const request = util.promisify(require("request"));
