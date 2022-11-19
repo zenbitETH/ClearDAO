@@ -5,6 +5,7 @@ import { RainbowKitProvider, getDefaultWallets } from '@rainbow-me/rainbowkit';
 import { chain, configureChains, createClient, WagmiConfig } from 'wagmi';
 import { alchemyProvider } from 'wagmi/providers/alchemy';
 import { publicProvider } from 'wagmi/providers/public';
+import Header from '../components/Header';
 
 const { chains, provider } = configureChains(
   [
@@ -40,7 +41,14 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains}>
-        <Component {...pageProps} />
+        
+      <div className="relative flex items-top justify-center sm:items-center sm:pt-0 min-h-screen font-exo 
+				bg-gradient-to-br from-solar-100  to-lunar-100
+				dark:bg-gradient-to-br dark:from-lunar-900 dark:to-lunar-600  ">
+					<Header/>
+					{/*<Toolbar/>*/}
+					<Component {...pageProps} />
+				</div>
       </RainbowKitProvider>
     </WagmiConfig>
   );

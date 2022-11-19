@@ -1,4 +1,3 @@
-import { ConnectButton } from '@rainbow-me/rainbowkit';
 import type { NextPage } from 'next';
 import ethers from "ethers";
 import abi from '../abi/abi.json'
@@ -20,7 +19,7 @@ async function vote (){
 const Home: NextPage = () => {
   return (
     <div className=''>
-        <ConnectButton />
+        hi
     </div>
   );
 };
