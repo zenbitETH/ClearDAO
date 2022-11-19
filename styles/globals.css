@@ -1,4 +1,13 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities
+@tailwind utilities;
 
+.header {
+  @apply
+  fixed top-0 w-full px-5 sm:px-24 py-5 rounded  z-20 backdrop-blur-md 
+}
+
+.wrap {
+  @apply
+  container flex flex-wrap justify-between items-center mx-auto
+}
