@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import ethers from "ethers";
-import abi from '../abi/abi.json'
+import abi from '../abi/abi.json';
+import Dashboard from '../pages/dashboard'
 
 async function vote (){
   const ethereum = (window as any).ethereum;
@@ -19,7 +20,7 @@ async function vote (){
 const Home: NextPage = () => {
   return (
     <div className=''>
-        hi
+        <Dashboard/>
     </div>
   );
 };
