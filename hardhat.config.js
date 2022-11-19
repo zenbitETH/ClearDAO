@@ -3,13 +3,13 @@ require("@nomiclabs/hardhat-etherscan");
 require('dotenv').config()
 const fs = require("fs");
 
-const defaultNetwork = "mumbai";
+const defaultNetwork = "wallaby";
 
 function mnemonic() {
   try {
     return fs.readFileSync("./mnemonic.txt").toString().trim();
   } catch (e) {
-    if (defaultNetwork !== "mumbai") {
+    if (defaultNetwork !== "wallaby") {
     }
   }
   return "";
@@ -24,6 +24,16 @@ module.exports = {
     },
     localhost: {
       url: "http://localhost:8545",
+    },
+    wallaby: {
+      hardhat: {
+        chainId: 4554
+      },
+      url: "https://wallaby.node.glif.io/rpc/v0",
+      accounts: [`0x${process.env.PRIVATE_KEY}`]
+      //accounts: {
+      //  mnemonic: mnemonic(),
+      //},
     },
     //skale: {
     //  url: "https://eth-global-10.skalenodes.com:10200",
