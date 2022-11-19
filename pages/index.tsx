@@ -19,7 +19,7 @@ async function vote (){
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className=''>
         <ConnectButton />
     </div>
   );
