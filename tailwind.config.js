@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+				ele: ['Electrolize'],
+			},
       colors: {
 				display: ["group-hover"],
 				  clear: {
@@ -20,6 +23,7 @@ module.exports = {
 				    100: "#00977F",
 			  },
       }
+      
     },
   },
   plugins: [
