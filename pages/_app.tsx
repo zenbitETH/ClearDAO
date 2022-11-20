@@ -43,8 +43,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <RainbowKitProvider chains={chains}>
         
       <div className="relative flex items-top justify-center sm:items-center sm:pt-0 min-h-screen font-exo 
-				bg-gradient-to-br from-solar-100  to-lunar-100
-				dark:bg-gradient-to-br dark:from-lunar-900 dark:to-lunar-600  ">
+				bg-gradient-to-tr from-clear-500/90 via-clear-100/60 to-clear-900/90 ">
 					<Header/>
 					{/*<Toolbar/>*/}
 					<Component {...pageProps} />
