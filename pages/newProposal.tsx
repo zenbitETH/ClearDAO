@@ -4,7 +4,7 @@ export default function NewProposal() {
       <div className="card0 px-5 max-w-3xl ">
         <div className="col-span-12 row-span-5 text-center rounded-3xl p-5">
           <form >
-          <div className="text-white text-4xl mb-10">⛲ Add Place</div>
+          <div className="text-white text-4xl mb-10">Create Proposal</div>
             <div className="text-left text-lg">
               <label className="text-white">1. Proposal tittle</label>
               <input type="text" name="placeName"  placeholder="🎯 Name your propsal"  className="formInput mt-2 mb-5" 

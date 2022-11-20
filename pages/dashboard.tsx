@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Dashboard() {
     return (        
         <div className='bg-gray-500 text-white h-[80vh] p-5 rounded-2xl'>
@@ -35,7 +37,7 @@ export default function Dashboard() {
                     F
                 </div>
                 <div className='grid col-span-2 grid-cols-2'>
-                    <div>Detail</div>
+                    <Link href='/voteProposal' ><div className="hover:text-green-500 cursor-pointer">Detail</div></Link>
                     <div>Add file</div>
                 </div>
             </div>
