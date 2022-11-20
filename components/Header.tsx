@@ -1,4 +1,5 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
+import Link from 'next/link';
 
 
 export default function Header() {
@@ -8,7 +9,8 @@ export default function Header() {
                 <div><span>#</span>Proposals</div>
                 <div><span>#</span>Rewards</div>
                 <div className='hover:text-white font-bold cursor-pointer'>Certification</div>
-                <div className='hover:text-white font-bold cursor-pointer'>New proposal</div>
+                <Link href='/newProposal'>
+                    <div className='hover:text-white font-bold cursor-pointer'>New proposal</div></Link>
                 <div className='col-span-2'><ConnectButton /></div>
             </div>
           

@@ -11,3 +11,21 @@
   @apply
   container flex flex-wrap justify-between items-center mx-auto
 }
+
+.card0 {
+  @apply mx-5  mt-24
+  grid
+  h-auto
+  grid-cols-12 grid-rows-6 
+  rounded-xl bg-gray-600 py-5 xl:my-0 
+  xl:grid-rows-1;
+}
+
+.formInput {
+  @apply mx-auto w-full rounded-2xl  bg-white px-6 py-3 
+}
+
+.formBT {
+  @apply mx-auto w-1/4
+  cursor-pointer rounded-3xl bg-green-500 py-3 text-xl hover:bg-green-100;
+}
