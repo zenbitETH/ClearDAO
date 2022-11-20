@@ -21,6 +21,15 @@
   xl:grid-rows-1;
 }
 
+.card1 {
+  @apply mx-5
+  grid
+  h-auto
+  grid-cols-12 
+  rounded-xl bg-gray-600 py-5 xl:my-0 
+  xl:grid-rows-1;
+}
+
 .formInput {
   @apply mx-auto w-full rounded-2xl  bg-white px-6 py-3 
 }
